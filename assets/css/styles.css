@@ -60,7 +60,7 @@ html {
 }
 
 .row::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
 }
@@ -85,7 +85,6 @@ html {
 
 /* Main */
 #main {
-    
 }
 
 #header {
@@ -103,7 +102,8 @@ html {
     cursor: pointer;
 }
 
-#nav, .subnav {
+#nav,
+.subnav {
     list-style-type: none;
 }
 
@@ -141,7 +141,7 @@ html {
     display: none;
     position: absolute;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     min-width: 160px;
     left: 0;
     top: 100%;
@@ -152,7 +152,7 @@ html {
     padding: 0 12px;
     line-height: 38.5px;
 }
-    
+
 #nav .nav-arrow-down {
     font-size: 14px;
 }
@@ -194,7 +194,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('../img/slider/ny.jpg') top center / cover no-repeat;
+    background: url('../img/slider/chicago.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -216,9 +216,7 @@ html {
     text-shadow: 0 0 1px #000;
 }
 
-
 #content {
-
 }
 
 #content .content-section {
@@ -308,8 +306,6 @@ html {
     margin-top: 16px;
 }
 
-
-
 .place-img {
     width: 100%;
     display: block;
@@ -359,7 +355,7 @@ html {
     opacity: 1;
 }
 
-.contact-info i[class*="ti-"] {
+.contact-info i[class*='ti-'] {
     display: inline-block;
     width: 30px;
 }
@@ -378,7 +374,6 @@ html {
     width: 100%;
 }
 
-
 /* Footer section */
 #footer {
     padding: 64px 16px;
@@ -390,22 +385,22 @@ html {
 }
 
 #footer .socials-list a {
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
 }
 
 #footer .socials-list a:hover {
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
 }
 
 #footer .copyright {
     margin-top: 15px;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #footer .copyright a {
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .modal {
@@ -434,7 +429,6 @@ html {
 }
 
 .modal-close {
-
 }
 
 .modal-header {
@@ -503,7 +497,7 @@ html {
 }
 
 .modal-footer a {
-    color: #2196F3;
+    color: #2196f3;
 }
 
 @keyframes modalFadeIn {
