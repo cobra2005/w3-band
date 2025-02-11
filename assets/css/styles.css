@@ -84,8 +84,6 @@ html {
 }
 
 /* Main */
-#main {
-}
 
 #header {
     position: fixed;
@@ -214,9 +212,6 @@ html {
 #slider .text-description {
     font-size: 15px;
     text-shadow: 0 0 1px #000;
-}
-
-#content {
 }
 
 #content .content-section {
@@ -426,9 +421,6 @@ html {
     min-height: 200px;
     position: relative;
     animation: modalFadeIn ease 0.5s;
-}
-
-.modal-close {
 }
 
 .modal-header {
